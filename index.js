@@ -1,7 +1,3 @@
-if(localStorage.getItem("First")== "1"){
-    window.location.href = "display.html";
-}
-
 
 const name1 = document.getElementById("name");
 const DD = document.getElementById("DD");
