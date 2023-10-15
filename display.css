@@ -10,6 +10,7 @@ body {
     padding: 0px;
     background-color: #f0f0f0;
     padding-bottom:100px;
+    user-select: none;
 }
 
 header {
@@ -89,6 +90,7 @@ form {
     font-size: 16px;
     font-weight: 700;
     text-align: center;
+    outline: none;
 }
 
 .form_element input[readonly] {
@@ -163,6 +165,7 @@ textarea {
     text-align: center;
     resize: vertical;
     /* Allow vertical resizing */
+    outline: none;
 }
 
 textarea[readonly] {
