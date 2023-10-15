@@ -12,7 +12,7 @@ function calculate(person, dd, mm, yyyy, formIndex) {
     ry = cy - yyyy;
     rm = cm - mm;
     rd = cd - dd;
-    
+
     if(rd<0){
         rm-=1;
         rd+=30;
@@ -29,7 +29,7 @@ function calculate(person, dd, mm, yyyy, formIndex) {
     // if (cd < dd) {
     //     rm -= 1;
     //     rd += 30;
-    }
+    // }
 
     //----------------
 
